@@ -13,7 +13,7 @@ sun_wind<br>
 <br>
 ### 2、具体说明
 #### 2.1数据读取
-可以从两个数据文件train_para_input.txt、train_output.txt中读取太阳耀斑的磁特征参数数据和标签，共计有 5000条数据。
+可以从两个数据文件train_para_input.txt、train_output.txt中读取太阳耀斑的磁特征参数数据和标签，共计约有 50000 条数据。
 输入参数采用了均值归一化处理。
 #### 2.2模型搭建
 在trian.py文件中，使用 pytorch 深度学习框架，搭建了四层神经网络模型，此外，使用了 Dropout 方法，防止模型过拟合。<br>
